@@ -63,6 +63,7 @@ int maxoccur(vector<vector<int>>v,int idx){
 					mp[k]++;
 					break;
 				}
+				//increase frequency
 				else if(v[i][j]==-1*v[idx][k]){
 					mp[k]++;
 					break;
@@ -92,7 +93,6 @@ int solve(vector<vector<int>>v,int n){
 	//find which variable occurs the max times in the formula
 	//among all variables present in the clause at that index
 	int var=maxoccur(v,idx);
-
 	//try to set this variable to true
 	final_solution.push_back(var);
 	//get the shortened encoding
