@@ -1,8 +1,9 @@
 We have used c++17 for this assignment
 
 How to run:
-1. Ensure that "input.txt","output.txt" and "satsolver.cpp" is present in the same folder.
+1. Ensure that "input.txt","output.txt","satsolver.cpp" and "compute.cpp" are present in the same folder.
 2. Paste the input in "input.txt" (no need to remove comments)
 3. Run "make"
 4. The output should be there in "output.txt"
-5. To clean the binary, run "make clean"
+5. compute.cpp tells us if the assignment which has been spit out, satisfies the formula.
+6. To clean the binary, run "make clean".
